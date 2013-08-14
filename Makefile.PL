@@ -1,8 +1,7 @@
-
 use ExtUtils::MakeMaker;
 
 WriteMakefile( 
-	'NAME'		=> 'Text-Wrap',
+	'NAME'		=> 'Text::Wrap',
 	'DISTNAME'	  => 'Text-Tabs+Wrap',
 	'VERSION_FROM' => 'lib.modern/Text/Wrap.pm',
 	($] >= 5.005 ? 
